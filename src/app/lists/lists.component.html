@@ -1,0 +1,11 @@
+<div class="container">
+    <p class="title">Todo list</p>
+    <div class="col-xs-10 form-group holder">
+        <div *ngFor="let list of lists; let i = index">
+            <h1 (click)="lists[i].isComplete = !lists[i].isComplete" [ngStyle]="{'text-decoration': lists[i].isComplete ? 'line-through' : 'unset'}">{{list.description}}</h1>
+            <button class="btn btn-primary" (click)="onEditList(i)"><span class="bi bi-pencil-square"></span></button>
+            <button class="btn btn-danger" (click)="onDeleteList(i)"><span class="bi bi-x-square"></span></button>
+        </div>
+        <button class="btn btn-primary bot" (click)="onAddList()"><span class="bi bi-plus-square"></span>  Create New List</button>
+    </div>
+</div>

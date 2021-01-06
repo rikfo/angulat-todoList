@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

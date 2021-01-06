@@ -1,0 +1,42 @@
+/*.container{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.list:hover{
+    cursor: pointer;
+}
+
+.align{
+    vertical-align: 5%;
+}*/
+
+.title{
+    color: lightseagreen;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container, .holder{
+    margin-bottom: 5px;
+}
+
+.bot{
+    position: absolute;
+    top: 80%;
+    left: 70%;
+}
